@@ -1,22 +1,12 @@
-import React from "react";
-
-const items = ["Apple", "Banana", "Cherry"];
-
-const List = () => (
-  <ul>
-    {items.map((item, index) => (
-      <li key={index}>{item}</li>
-    ))}
-  </ul>
-);
-
+import Detail from "./components/detail/Detail"
+import List from "./components/list/List"
 const App = () => {
   return (
-    <div>
-      <h1>Fruits List</h1>
-      <List />
+    <div className='container'>
+      <List/>
+      {/* <Detail/> */}
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
