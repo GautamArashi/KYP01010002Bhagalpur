@@ -3,8 +3,8 @@ import React from "react";
 const List = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen ">
-      <h2 className="text-2xl font-bold mb-6   bg-gradient-to-r from-red-500 via-green-500 to-purple-500 bg-clip-text text-transparent">Computer Training & Skill Development </h2>
-      <h2 className="text-2xl font-bold mb-6">KYP01010002 </h2>
+      <h2 className="text-xl font-bold mb-6   bg-gradient-to-r from-red-500 via-green-500 to-purple-500 bg-clip-text text-transparent">Computer Training & Skill Development </h2>
+      <h2 className="text-3xl font-bold mb-6">KYP01010002 </h2>
 
       <div className="flex space-x-6">
         {/* Instagram Icon */}
